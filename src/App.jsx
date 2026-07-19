@@ -162,7 +162,15 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <div className="container" style={{ display: "flex", width: "100%", justifyContent: "space-between", alignItems: "center" }}>
+        <div
+          className="container"
+          style={{
+            display: "flex",
+            width: "100%",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
           <span className="footer__brand">Lumen</span>
           <span>Entworfen für die, die genau tippen.</span>
         </div>
